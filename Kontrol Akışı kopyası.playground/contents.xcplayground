@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='1. Alıştırma - Mantıksal Operatörler'/>
+        <page name='2. Alıştırma - If ve If-Else Yapıları'/>
+        <page name='3. Uygulama - Fitness Tercihleri'/>
+        <page name='4. Alıştırma - Boolean Değerleri'/>
+        <page name='5. Uygulama - Hedef Nabız'/>
+        <page name='6. Alıştırma - Switch İfadeleri'/>
+        <page name='7. Uygulama - Nabız Aralığı'/>
+        <page name='8. Alıştırma - Ternary Operatör'/>
+        <page name='9. Uygulama - Ternary Operatör'/>
+    </pages>
+</playground>

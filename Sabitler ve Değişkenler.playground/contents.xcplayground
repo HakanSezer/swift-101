@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered' executeOnSourceChanges='true'>
+    <pages>
+        <page name='1. Alıştırma - Sabitler'/>
+        <page name='2. Uygulama - Adım Hedefi'/>
+        <page name='3. Alıştırma - Değişkenler'/>
+        <page name='4. Uygulama - Adım Sayısı'/>
+        <page name='5. Alıştırma - Sabit mi Değişken mi'/>
+        <page name='6. Uygulama - Fitness Takibi Sabit mi Değişken mi?'/>
+        <page name='7. Alıştırma - Tipler ve Tip Güvenliği'/>
+        <page name='8. Uygulama - Büyük Sayılarla Çalışmak'/>
+        <page name='9. Alıştırma - Type Inference'/>
+        <page name='10. Uygulama - Tamamlanan Yüzde'/>
+    </pages>
+</playground>
