@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Log_In" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="eD8-ks-eX1">
+                                <rect key="frame" x="146.66666666666666" y="104" width="100" height="100"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Kullanıcı Adı" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gix-XU-xF8">
+                                <rect key="frame" x="20" y="349" width="353" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Şifre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a15-28-B0K">
+                                <rect key="frame" x="20" y="452" width="353" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0s-Kg-dwq">
+                                <rect key="frame" x="20" y="555" width="353" height="35"/>
+                                <color key="backgroundColor" red="0.98333770040000001" green="0.23358318210000001" blue="0.61457592250000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="LOG IN"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhD-Hb-xzv">
+                                <rect key="frame" x="172" y="801" width="49" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.98333770040000001" green="0.23358318210000001" blue="0.61457592250000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.3591909707" green="0.14141416549999999" blue="0.61569416519999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a15-28-B0K" secondAttribute="trailing" constant="20" id="0sg-R2-vEq"/>
+                            <constraint firstItem="r0s-Kg-dwq" firstAttribute="top" secondItem="a15-28-B0K" secondAttribute="bottom" constant="65" id="6Hl-Pi-Rpt"/>
+                            <constraint firstItem="gix-XU-xF8" firstAttribute="top" secondItem="eD8-ks-eX1" secondAttribute="bottom" constant="145" id="6yU-eH-ijT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="r0s-Kg-dwq" secondAttribute="trailing" constant="20" id="9f6-DX-Ko1"/>
+                            <constraint firstItem="a15-28-B0K" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="RTP-EY-TKx"/>
+                            <constraint firstItem="a15-28-B0K" firstAttribute="top" secondItem="gix-XU-xF8" secondAttribute="bottom" constant="65" id="ReM-j9-hpu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gix-XU-xF8" secondAttribute="trailing" constant="20" id="Rxj-GN-YAo"/>
+                            <constraint firstItem="r0s-Kg-dwq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Z6f-6H-9ah"/>
+                            <constraint firstItem="eD8-ks-eX1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="blJ-QE-3aI"/>
+                            <constraint firstItem="dhD-Hb-xzv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="172" id="gb6-VP-Z8k"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dhD-Hb-xzv" secondAttribute="trailing" constant="172" id="gnV-RS-JZt"/>
+                            <constraint firstItem="a15-28-B0K" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.05" id="hgk-sW-ghb"/>
+                            <constraint firstAttribute="bottom" secondItem="dhD-Hb-xzv" secondAttribute="bottom" constant="30" id="iNd-6N-Dxt"/>
+                            <constraint firstItem="eD8-ks-eX1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="kKw-Xh-sP4"/>
+                            <constraint firstItem="gix-XU-xF8" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.05" id="nai-93-aOt"/>
+                            <constraint firstItem="gix-XU-xF8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="rhm-Cb-8c3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="394.6564885496183" y="-17.605633802816904"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="100" height="100"/>
+    </resources>
+</document>
