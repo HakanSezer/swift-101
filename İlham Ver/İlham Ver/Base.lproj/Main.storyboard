@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_lham_Ver" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="steavejobs" translatesAutoresizingMaskIntoConstraints="NO" id="4oN-uM-Txa">
+                                <rect key="frame" x="146.66666666666666" y="104" width="100" height="100"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steve Jobs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CQB-EO-S3s">
+                                <rect key="frame" x="154" y="224" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dünya'yı değiştirebileceğini düşünecek kadar çılgın olan insanlar, dünyayı değiştirebilirler." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3K-i8-kkw">
+                                <rect key="frame" x="5" y="405.66666666666669" width="383" height="40.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCJ-eS-ldH">
+                                <rect key="frame" x="10" y="762.33333333333337" width="373" height="45.666666666666629"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <color key="tintColor" systemColor="opaqueSeparatorColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CCJ-eS-ldH" secondAttribute="bottom" constant="10" id="1Zh-nM-ER3"/>
+                            <constraint firstItem="4oN-uM-Txa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ghh-h5-OHv"/>
+                            <constraint firstAttribute="trailing" secondItem="C3K-i8-kkw" secondAttribute="trailing" constant="5" id="Jxq-Ny-aXR"/>
+                            <constraint firstItem="CCJ-eS-ldH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Owe-kh-A32"/>
+                            <constraint firstItem="C3K-i8-kkw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TcX-in-hB2"/>
+                            <constraint firstItem="CCJ-eS-ldH" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.06" id="gA6-Io-V8W"/>
+                            <constraint firstItem="C3K-i8-kkw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="oZ5-WQ-3ak"/>
+                            <constraint firstItem="C3K-i8-kkw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pVg-LF-awi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CCJ-eS-ldH" secondAttribute="trailing" constant="10" id="rXg-qa-YOM"/>
+                            <constraint firstItem="4oN-uM-Txa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="ru6-yV-J9w"/>
+                            <constraint firstItem="CQB-EO-S3s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xtn-4k-Tmb"/>
+                            <constraint firstItem="CQB-EO-S3s" firstAttribute="top" secondItem="4oN-uM-Txa" secondAttribute="bottom" constant="20" id="zJU-fE-1ls"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-94" y="-20"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="steavejobs" width="100" height="100.33333587646484"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
