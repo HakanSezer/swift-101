@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ToolBar_Calismasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GVy-gO-8lM">
+                                <rect key="frame" x="0.0" y="769" width="393" height="49"/>
+                                <items>
+                                    <barButtonItem systemItem="rewind" id="ksn-M4-sPy">
+                                        <color key="tintColor" systemColor="systemRedColor"/>
+                                        <connections>
+                                            <action selector="geriButton:" destination="BYZ-38-t0r" id="rSr-KY-vLb"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="uhy-FW-Vmh"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="Sbi-3l-fvS"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="EKU-7x-aeT"/>
+                                    <barButtonItem title="Oynat" id="38N-RX-LcM">
+                                        <color key="tintColor" red="0.98333770040000001" green="0.23358318210000001" blue="0.61457592250000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="playButton:" destination="BYZ-38-t0r" id="0q6-b7-MAU"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="Qhy-AF-X6a"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="pEs-3H-qkK"/>
+                                    <barButtonItem title="Item" image="navBaslik" id="Bjp-t8-UlO">
+                                        <connections>
+                                            <action selector="homeButton:" destination="BYZ-38-t0r" id="O3V-qm-vVE"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="daR-om-p1g">
+                                <rect key="frame" x="161" y="226" width="71" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GVy-gO-8lM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VOT-79-pVV"/>
+                            <constraint firstItem="daR-om-p1g" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="167" id="jEG-uP-muc"/>
+                            <constraint firstItem="daR-om-p1g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sYZ-oU-MXH"/>
+                            <constraint firstItem="GVy-gO-8lM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="vUX-PG-eud"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GVy-gO-8lM" secondAttribute="bottom" id="vjD-YB-9xU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textLabel" destination="daR-om-p1g" id="9kg-wk-Z9I"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-282" y="-40"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="navBaslik" width="48" height="48"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
