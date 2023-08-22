@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Segmented_Control" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nde-Kh-aQw">
+                                <rect key="frame" x="172" y="167" width="51" height="31"/>
+                                <color key="onTintColor" red="0.5721225459" green="0.18369884450000001" blue="0.52311219139999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="thumbTintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="switchClick:" destination="BYZ-38-t0r" eventType="valueChanged" id="GY3-GJ-o6d"/>
+                                </connections>
+                            </switch>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cac-vN-5c3">
+                                <rect key="frame" x="101" y="294" width="191" height="32"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <segments>
+                                    <segment title="Aç"/>
+                                    <segment title="Kapat"/>
+                                    <segment title="Normal"/>
+                                </segments>
+                                <color key="tintColor" red="0.51046822889999999" green="0.1639026891" blue="0.46673943499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="selectedSegmentTintColor" red="0.5721225459" green="0.18369884450000001" blue="0.52311219139999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="segmentedClick:" destination="BYZ-38-t0r" eventType="valueChanged" id="9BB-6s-oQd"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ahm-lQ-ccr">
+                                <rect key="frame" x="159" y="427" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c6g-vI-LMo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ahm-lQ-ccr" firstAttribute="top" secondItem="cac-vN-5c3" secondAttribute="bottom" constant="102" id="0Z2-Lr-b8A"/>
+                            <constraint firstItem="cac-vN-5c3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DgH-4E-iWy"/>
+                            <constraint firstItem="nde-Kh-aQw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="108" id="SkK-U0-AIr"/>
+                            <constraint firstItem="Ahm-lQ-ccr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a8P-Od-oXD"/>
+                            <constraint firstItem="cac-vN-5c3" firstAttribute="top" secondItem="nde-Kh-aQw" secondAttribute="bottom" constant="96" id="kZk-xu-5zF"/>
+                            <constraint firstItem="nde-Kh-aQw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kqw-of-Prp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="uiSwitch" destination="nde-Kh-aQw" id="D1k-ys-J2T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-434" y="-15"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
