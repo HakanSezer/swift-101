@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34D2C7D62AA07AF3000FC0F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2C7D52AA07AF3000FC0F3 /* AppDelegate.swift */; };
+		34D2C7D82AA07AF3000FC0F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2C7D72AA07AF3000FC0F3 /* SceneDelegate.swift */; };
+		34D2C7DD2AA07AF3000FC0F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D2C7DB2AA07AF3000FC0F3 /* Main.storyboard */; };
+		34D2C7DF2AA07AF4000FC0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D2C7DE2AA07AF4000FC0F3 /* Assets.xcassets */; };
+		34D2C7E22AA07AF4000FC0F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D2C7E02AA07AF4000FC0F3 /* LaunchScreen.storyboard */; };
+		34D2C7EC2AA07B6C000FC0F3 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2C7EB2AA07B6C000FC0F3 /* Emoji.swift */; };
+		34D2C7EE2AA07D79000FC0F3 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2C7ED2AA07D79000FC0F3 /* EmojiTableViewController.swift */; };
+		34D2C7F02AA09E69000FC0F3 /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2C7EF2AA09E69000FC0F3 /* EmojiTableViewCell.swift */; };
+		34D2C7F42AA0EA41000FC0F3 /* NewEmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2C7F32AA0EA41000FC0F3 /* NewEmojiTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34D2C7D22AA07AF3000FC0F3 /* Tableview İleriSeviye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tableview İleriSeviye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D2C7D52AA07AF3000FC0F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34D2C7D72AA07AF3000FC0F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34D2C7DC2AA07AF3000FC0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34D2C7DE2AA07AF4000FC0F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34D2C7E12AA07AF4000FC0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34D2C7E32AA07AF4000FC0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34D2C7EB2AA07B6C000FC0F3 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		34D2C7ED2AA07D79000FC0F3 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
+		34D2C7EF2AA09E69000FC0F3 /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
+		34D2C7F32AA0EA41000FC0F3 /* NewEmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEmojiTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34D2C7CF2AA07AF3000FC0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34D2C7C92AA07AF3000FC0F3 = {
+			isa = PBXGroup;
+			children = (
+				34D2C7D42AA07AF3000FC0F3 /* Tableview İleriSeviye */,
+				34D2C7D32AA07AF3000FC0F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34D2C7D32AA07AF3000FC0F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34D2C7D22AA07AF3000FC0F3 /* Tableview İleriSeviye.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34D2C7D42AA07AF3000FC0F3 /* Tableview İleriSeviye */ = {
+			isa = PBXGroup;
+			children = (
+				34D2C7D52AA07AF3000FC0F3 /* AppDelegate.swift */,
+				34D2C7D72AA07AF3000FC0F3 /* SceneDelegate.swift */,
+				34D2C7DB2AA07AF3000FC0F3 /* Main.storyboard */,
+				34D2C7ED2AA07D79000FC0F3 /* EmojiTableViewController.swift */,
+				34D2C7EB2AA07B6C000FC0F3 /* Emoji.swift */,
+				34D2C7DE2AA07AF4000FC0F3 /* Assets.xcassets */,
+				34D2C7E02AA07AF4000FC0F3 /* LaunchScreen.storyboard */,
+				34D2C7E32AA07AF4000FC0F3 /* Info.plist */,
+				34D2C7EF2AA09E69000FC0F3 /* EmojiTableViewCell.swift */,
+				34D2C7F32AA0EA41000FC0F3 /* NewEmojiTableViewController.swift */,
+			);
+			path = "Tableview İleriSeviye";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34D2C7D12AA07AF3000FC0F3 /* Tableview İleriSeviye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D2C7E62AA07AF4000FC0F3 /* Build configuration list for PBXNativeTarget "Tableview İleriSeviye" */;
+			buildPhases = (
+				34D2C7CE2AA07AF3000FC0F3 /* Sources */,
+				34D2C7CF2AA07AF3000FC0F3 /* Frameworks */,
+				34D2C7D02AA07AF3000FC0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tableview İleriSeviye";
+			productName = "Tableview İleriSeviye";
+			productReference = 34D2C7D22AA07AF3000FC0F3 /* Tableview İleriSeviye.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34D2C7CA2AA07AF3000FC0F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					34D2C7D12AA07AF3000FC0F3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 34D2C7CD2AA07AF3000FC0F3 /* Build configuration list for PBXProject "Tableview İleriSeviye" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34D2C7C92AA07AF3000FC0F3;
+			productRefGroup = 34D2C7D32AA07AF3000FC0F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34D2C7D12AA07AF3000FC0F3 /* Tableview İleriSeviye */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34D2C7D02AA07AF3000FC0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D2C7E22AA07AF4000FC0F3 /* LaunchScreen.storyboard in Resources */,
+				34D2C7DF2AA07AF4000FC0F3 /* Assets.xcassets in Resources */,
+				34D2C7DD2AA07AF3000FC0F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34D2C7CE2AA07AF3000FC0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D2C7EE2AA07D79000FC0F3 /* EmojiTableViewController.swift in Sources */,
+				34D2C7F42AA0EA41000FC0F3 /* NewEmojiTableViewController.swift in Sources */,
+				34D2C7D62AA07AF3000FC0F3 /* AppDelegate.swift in Sources */,
+				34D2C7F02AA09E69000FC0F3 /* EmojiTableViewCell.swift in Sources */,
+				34D2C7EC2AA07B6C000FC0F3 /* Emoji.swift in Sources */,
+				34D2C7D82AA07AF3000FC0F3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34D2C7DB2AA07AF3000FC0F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34D2C7DC2AA07AF3000FC0F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34D2C7E02AA07AF4000FC0F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34D2C7E12AA07AF4000FC0F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34D2C7E42AA07AF4000FC0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34D2C7E52AA07AF4000FC0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34D2C7E72AA07AF4000FC0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KF37U55MQ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tableview İleriSeviye/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hakansezer.Tableview-I-leriSeviye";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34D2C7E82AA07AF4000FC0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KF37U55MQ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tableview İleriSeviye/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hakansezer.Tableview-I-leriSeviye";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34D2C7CD2AA07AF3000FC0F3 /* Build configuration list for PBXProject "Tableview İleriSeviye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D2C7E42AA07AF4000FC0F3 /* Debug */,
+				34D2C7E52AA07AF4000FC0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D2C7E62AA07AF4000FC0F3 /* Build configuration list for PBXNativeTarget "Tableview İleriSeviye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D2C7E72AA07AF4000FC0F3 /* Debug */,
+				34D2C7E82AA07AF4000FC0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34D2C7CA2AA07AF3000FC0F3 /* Project object */;
+}
